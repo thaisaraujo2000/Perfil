@@ -1,0 +1,175 @@
+/*All*/
+/*-----------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    font: 15px 'Nunito', sans-serif;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+
+a:link, a:active, a:visited {
+    font-weight: 700;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+#logo {
+    margin-left: 50px;
+}
+
+#logo h1 {
+    float: left;
+    width: 248px;
+	height: 21px;
+    display: block;
+    color: white;
+}
+
+header {
+    padding: 15px 0;
+    height: 40px;
+    background-color:#AEB5F1;
+    width: 100%;
+}
+
+p {
+    padding: 20px;
+    color: white;
+    font-size: 1.5em;
+    text-align: justify;
+    font-weight: lighter;
+
+}
+
+.p1 {
+    margin-top: 70px;
+}
+
+.p2 {
+    margin-bottom: 100px;
+}
+
+/* Sections */
+/*-----------------------------------*/
+
+section#home {
+    text-align: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-image: url(images/fundo.png);
+    background-attachment: fixed;
+}
+
+section#home img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px black;
+    border: 3px solid #AEB5F1;
+}
+
+section#home h2 {
+    position: absolute;
+    left: 0%;
+    top: 67.75%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+
+section#about {
+    background-color: #C9AEF1;
+}
+
+section#hobbies{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(images/fundo1.png);
+    background-attachment: fixed;
+}
+
+section#hobbies h3 {
+    text-shadow: 2px 2px 10px #000000;
+}
+
+section#hobbies img{
+    margin-top: 100px;
+    padding: 0px 50px;
+    height: 80px;
+}
+
+.content {
+    padding: 50px 60px;
+}
+
+.content h3 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-decoration-line: overline;
+    color: #FFFFFF;
+}
+
+/*Nav*/
+/*-----------------------------------*/
+
+nav ul {
+    margin: 10px 30px;
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 10px;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 20px;
+    text-transform: uppercase;
+}
+
+/*Footer*/
+/*-----------------------------------*/
+
+footer {
+    background-color: #7d89f5;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer img {
+    height: 35px;
+    padding:5px 10px;
+}
+
+
+
+
+
+
+
+
